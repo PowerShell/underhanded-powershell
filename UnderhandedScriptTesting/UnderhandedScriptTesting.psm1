@@ -184,3 +184,5 @@ Function Test-IsUnderhandedPowerShell
         Write-Host "Timed out! Sorry, something isn't right. Please try again in a few minutes."       
     }
 }
+
+Export-ModuleMember -Function Test-IsUnderhandedPowerShell
