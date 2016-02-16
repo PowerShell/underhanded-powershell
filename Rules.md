@@ -4,7 +4,7 @@
 
 __Requirements__
 
-* All submissions must be written in PowerShell, and submitted using the UnderhandedScriptTesting module available on GitHub at http://github.com/powershell/scriptanalyzer/contest/underhandedscripttesting
+* All submissions must be written in PowerShell, and submitted using the UnderhandedScriptTesting module available on GitHub at http://github.com/powershell/underhanded-powershell
 * The username is required with all submissions. The same username must be supplied for any submission to be counted with others towards towards the awards for this contest. The username will be displayed on the contest status page.
 * The email address is required with all submissions, and will be used only by Microsoft to contact submitters.
 * The value of Prizes for this contest will be less than $100.00. Contest prizes will not be awarded for submissions that are not associated with a valid email address.
