@@ -3,7 +3,7 @@ The Underhanded PowerShell Contest
 
 -   [FAQ](http://github.com/powershell/underhanded-powershell/blob/master/FAQ.md)
 -   [RULES](http://github.com/powershell/underhanded-powershell/blob/master/Rules.md)
--   [TERMS OF USE](TermsOfUse.html)
+-   [TERMS OF USE](underhanded-powershell.azurewebsites.net/TermsOfUse.html)
 -   [STANDINGS](http://github.com/powershell/underhanded-powershell/blob/master/Current-Standings.md)
 
 About This Series
