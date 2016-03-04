@@ -2,7 +2,7 @@
 
 -   [FAQ](http://github.com/powershell/underhanded-powershell/blob/master/FAQ.md)
 -   [RULES](http://github.com/powershell/underhanded-powershell/blob/master/Rules.md)
--   [TERMS OF USE](underhanded-powershell.azurewebsites.net/TermsOfUse.html)
+-   [TERMS OF USE](http://underhanded-powershell.azurewebsites.net/TermsOfUse.html)
 -   [STANDINGS](http://github.com/powershell/underhanded-powershell/blob/master/Current-Standings.md)
 
 ## About This Series
