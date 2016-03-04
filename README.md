@@ -11,6 +11,10 @@ In an effort to improve the validation capability of PowerShell Script Analyzer,
 
 What's underhanded PowerShell code? Basically, code that is designed to do something the user would not intend, or takes actions that are not apparent to someone who would casually read the code.
 
+We'll be running this contest in two phases: "Red Team", and "Blue Team". In the "Red Team" phase, you get to unleash your underhanded creativity in _writing_ underhanded PowerShell code. In an upcoming "Blue Team" phase, we'll be looking for creative and reliable defenses to underhanded PowerShell. Participation in both contests will be allowed - and in fact encouraged!
+
+## Participating as a Red Teamer
+
 We have set up a web service that runs PowerShell Script Analyzer with a set of preliminary rules that are designed to detect underhanded script code, along with a set of commands built into the [UnderhandedScriptTesting](https://github.com/PowerShell/underhanded-powershell/tree/master/UnderhandedScriptTesting) module that will work against that service.
 
 ## Submission Guidelines and Deadlines
@@ -31,12 +35,12 @@ Your goal is to submit your own creative approaches to underhanded scripting usi
 
 We will award prizes for the largest number of unique successful underhanded techniques submitted, and will also update the contest standings regularly so you can show off to your friends. Critical dates for this contest are:
 
-|                   |                                 |
-|-------------------|---------------------------------|
-| **Jan. 19, 2016** | Contest opens                   |
-| **Mar. 1, 2016**  | Submission deadline             |
-| **Mar. 15, 2016** | Results of Judging              |
-| **Mar. 15, 2016** | Next phase of contest announced |
+|                  |                                 |
+|------------------|---------------------------------|
+| **Mar 7, 2016**  | Contest opens                   |
+| **May 1, 2016**  | Submission deadline             |
+| **May 15, 2016** | Results of Judging              |
+| **May 15, 2016** | Next phase of contest announced |
 
 **Important:** Before you submit any code, read the [Rules](http://github.com/powershell/underhanded-powershell/blob/master/Rules.md). Among other things you will see that by submitting code to this contest, you are granting Microsoft the ability to reuse in any way the code or content you submit, and that we will collect contact information from you to help us run the contest.
 
