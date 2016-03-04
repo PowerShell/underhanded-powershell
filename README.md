@@ -11,7 +11,7 @@ In an effort to improve the validation capability of PowerShell Script Analyzer,
 
 What's underhanded PowerShell code? Basically, code that is designed to do something the user would not intend, or takes actions that are not apparent to someone who would casually read the code.
 
-We'll be running this contest in two phases: "Red Team", and "Blue Team". In the "Red Team" phase, you get to unleash your underhanded creativity in _writing_ underhanded PowerShell code. In an upcoming "Blue Team" phase, we'll be looking for creative and reliable defenses to underhanded PowerShell. Participation in both contests will be allowed - and in fact encouraged!
+We'll be running this contest in two phases: "Red Team", and "Blue Team". In the "Red Team" phase, you get to unleash your underhanded creativity in _writing_ underhanded PowerShell code. In an upcoming "Blue Team" phase, we'll be looking for creative and reliable defenses to detect underhanded PowerShell. Participation in both contests will be allowed - and in fact encouraged!
 
 ## Participating as a Red Teamer
 
@@ -35,7 +35,7 @@ Your goal is to submit your own creative approaches to underhanded scripting usi
 
 We will award prizes for the largest number of unique successful underhanded techniques submitted, and will also update the contest standings regularly so you can show off to your friends. Critical dates for this contest are:
 
-|                  |                                 |
+| Date             | Event                           |
 |------------------|---------------------------------|
 | **Mar 7, 2016**  | Contest opens                   |
 | **May 1, 2016**  | Submission deadline             |
