@@ -30,6 +30,19 @@ $type = [Type] ("System.Runtime.InteropSe" + "rvices.Mar" + "shal")
 $property = "SystemDef" + "aultCharSize"
 $type::$property
 ```
+or alternatively through C# and the Add-Type cmdlet,
+
+``` powershell
+$code = @'
+    public static int Getter
+    {
+        get { return System.Runtime.InteropServices.Marshal.SystemDefaultCharSize; }
+    }
+'@
+
+$type = Add-Type -Name "Me$(Get-Random)" -MemberDefinition $code -PassThru
+$type::Getter
+```
 
 Your goal is to submit your own creative approaches to underhanded scripting using the **Test-IsSuspiciousContent** command, and get a false IsSuspicious return value.
 
