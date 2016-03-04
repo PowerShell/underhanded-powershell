@@ -21,9 +21,11 @@ Full [Rules](http://github.com/powershell/underhanded-powershell/blob/master/Rul
 
 An example of an underhanded approach to this would be:
 
-`         $type = [Type] ("System.Runtime.InteropSe" + "rvices.Mar" + "shal")     `
-`         $property = "SystemDef" + "aultCharSize"     `
-`         $type::$property     `
+``` powershell
+$type = [Type] ("System.Runtime.InteropSe" + "rvices.Mar" + "shal")
+$property = "SystemDef" + "aultCharSize"
+$type::$property
+```
 
 Your goal is to submit your own creative approaches to underhanded scripting using the **Test-IsSuspiciousContent** command, and get a false IsSuspicious return value.
 
