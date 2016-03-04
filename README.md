@@ -59,5 +59,5 @@ PS> Invoke-WebRequest @webRequest
 ### Test a script
 
 ```
-Test-IsUnderhandedPowerShell -ScriptBlock { Invoke-Expression "SOME_BASE64" } -Username superbadguy -ContactEmail leeholm@microsoft.com
+Test-IsUnderhandedPowerShell -ScriptBlock { Invoke-Expression "SOME_BASE64" } -Username superbadguy -ContactEmail redteam@example.com
 ```
