@@ -23,7 +23,7 @@ Function Start-PssaJob
 
     $contentBase64 = [System.Convert]::ToBase64String($content.ToCharArray());
 
-    $result = Invoke-WebRequest -Method Post `
+    $result = Invoke-WebRequest -UseBasicParsing -Method Post `
   	      		      -Uri $serviceUrl `
   			      -Body @{content=$contentBase64;
                             username=$username;
@@ -49,7 +49,7 @@ Function Get-PssaJobStatus
     )	
   $jobStatus = "/api/status"
   $url = "{0}/{1}/{2}" -f ($serviceUrl, $jobStatus, $id)
-  $result = Invoke-WebRequest -Method Get `
+  $result = Invoke-WebRequest -UseBasicParsing -Method Get `
   	    		      -Uri $url
   return($result)
 }
@@ -83,7 +83,7 @@ Function Stop-PssasJob
     )
   $jobStop = "/api/cancel"
   $url = $url = "{0}/{1}/{2}" -f ($serviceUrl, $jobStop, $id)
-  $result = Invoke-WebRequest -Method Delete `
+  $result = Invoke-WebRequest -UseBasicParsing -Method Delete `
                               -Uri $url
   return($result)
 }
