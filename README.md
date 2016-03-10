@@ -64,13 +64,15 @@ As mentioned above, we plan for this to be a series of contests. In future conte
 ### Install the module
 
 ```
-PS> Set-Location (Split-Path $profile)
-PS> New-Item -Type Directory "Modules/UnderhandedScriptTesting" -Force 
-PS> $webRequest = @{
-    Uri = 'https://raw.githubusercontent.com/PowerShell/underhanded-powershell/master/UnderhandedScriptTesting/UnderhandedScriptTesting.psm1'
-    OutFile = 'Modules/UnderhandedScriptTesting/UnderhandedScriptTesting.psm1'
+$profileDir = Split-Path $profile
+if (!(Test-Path $profileDir)) {New-Item -Type Directory $profileDir -Force}
+Set-Location $profileDir
+New-Item -Type Directory "Modules/UnderhandedScriptTesting" -Force 
+$webRequest = @{
+	Uri = 'https://raw.githubusercontent.com/PowerShell/underhanded-powershell/master/UnderhandedScriptTesting/UnderhandedScriptTesting.psm1'
+	OutFile = 'Modules/UnderhandedScriptTesting/UnderhandedScriptTesting.psm1'
 }
-PS> Invoke-WebRequest @webRequest
+Invoke-WebRequest @webRequest
 ```
 
 ### Test a script
