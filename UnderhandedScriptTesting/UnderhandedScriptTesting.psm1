@@ -21,7 +21,7 @@ Function Start-PssaJob
     $jobStartContent = "/api/Invoke"
     $serviceUrl = $serviceUrl + $jobStartContent;
 
-    $contentBase64 = [System.Convert]::ToBase64String($content.ToCharArray());
+    $contentBase64 = [System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($content));
 
     $result = Invoke-WebRequest -UseBasicParsing -Method Post `
   	      		      -Uri $serviceUrl `
