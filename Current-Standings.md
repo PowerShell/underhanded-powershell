@@ -1,18 +1,18 @@
 # Current Standings
 | Username       | Confirmed Underhanded Techniques |
 |----------------|----------------------------------|
-| fmichaleczek   | 25                               |
-| PetSerAl       | 12                               |
-| jonwhitejwh    | 9                                |
+| fmichaleczek   | 29                               |
+| PetSerAl       | 19                               |
+| jonwhitejwh    | 10                               |
 | noaml          | 7                                |
-| test           | 5                                |
+| test           | 4                                |
 | superbadguy    | 2                                |
 | mattifestation | 2                                |
-| sevoroby       | 1                                |
-| foo            | 1                                |
-| Emin           | 1                                |
 | proxb          | 1                                |
+| sevoroby       | 1                                |
+| Emin           | 1                                |
+| foo            | 1                                |
 | KevinMarquette | 1                                |
 
 
-*Generated on 3/25/2016 10:22:18 AM PST*
+*Generated on 3/30/2016 4:24:01 PM PST*
