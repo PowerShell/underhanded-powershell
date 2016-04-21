@@ -2,7 +2,7 @@
 | Username       | Confirmed Underhanded Techniques |
 |----------------|----------------------------------|
 | fmichaleczek   | 31                               |
-| PetSerAl       | 22                               |
+| PetSerAl       | 24                               |
 | jonwhitejwh    | 10                               |
 | noaml          | 7                                |
 | Emin           | 6                                |
@@ -16,4 +16,4 @@
 | KevinMarquette | 1                                |
 
 
-*Generated on 4/6/2016 4:21:21 PM PST*
+*Generated on 4/21/2016 10:11:35 AM PST*
